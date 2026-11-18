@@ -1,0 +1,7 @@
+id,file,label
+img01,images/img01.pgm,bright-center
+img02,images/img02.pgm,bright-center
+img03,images/img03.pgm,dark-uniform
+img04,images/img04.pgm,bright-top
+img05,images/img05.pgm,gradient-left-right
+img06,images/img06.pgm,bright-center

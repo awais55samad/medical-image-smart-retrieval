@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "med-retrieval"
+version = "0.1.0"
+description = "Content-based medical image retrieval using hybrid feature mining and similarity search"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+med-retrieval = "med_retrieval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
